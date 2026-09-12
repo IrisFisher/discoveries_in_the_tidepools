@@ -1,1 +1,33 @@
-/* Add your styles here. */
+body {
+   font-family: helvetica;
+
+}
+
+h1{
+    font-size: 35px;
+    color: #542024;
+
+}
+
+main{
+    color: #542024;
+}
+
+a {
+    font-weight:bold;
+    color: rgb(57, 96, 96)
+}
+
+a:hover {
+    background-color:rgb(225, 178, 183);
+}
+
+.large {
+    font-size: 20px;
+}
+
+
+#header {
+    font-style:italic;
+    font-size: 16px;
+}
