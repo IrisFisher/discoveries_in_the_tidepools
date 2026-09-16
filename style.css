@@ -1,7 +1,43 @@
-
 body {
    font-family: helvetica;
+    }
 
+.headerDiv a {
+    background-color:rgb(245, 193, 198);
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(47, 77, 77);
+}
+
+.headerDiv ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(245, 193, 198);
+}
+
+.headerDiv li{
+      float: left;
+}
+
+.titleDiv h1 {
+    margin-top: 40px
+}
+
+.bodyDiv p,ul{
+    font-size: 20px;
+    margin-right:20px;
+    margin-left:20px;
+    color: #542024;
+}
+
+
+.italic{
+    font-style: italic;
 }
 
 h1{
@@ -10,8 +46,9 @@ h1{
 
 }
 
-main{
+h4{
     color: #542024;
+
 }
 
 a {
@@ -23,18 +60,70 @@ a:hover {
     background-color:rgb(225, 178, 183);
 }
 
-.large {
-    font-size: 20px;
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+    margin-right: 20px;
+    margin-left: 20px;
+
 }
 
-#header {
+td, th {
+  border: 1px solid rgb(236, 216, 216);
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(236, 216, 216);
+}
+
+th{
+    color: #542024;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.imgcenter{
+    display: block;
+    margin: auto;
+}
+
+#citation1 {
     font-style:italic;
     font-size: 16px;
+    text-align: center;
 }
 
-@media (max-width: 1000px) {
-    img {
-        width: 50%;
-        height: 50%
+#citation2 {
+    font-style:italic;
+    font-size: 16px;
+    margin-bottom:25px;
+}
+    
+#imagesDiv{
+  display: flex;
+  justify-content: center;
+}
+#imagesDiv img{
+  margin: 0 10px;
+}
+
+@media (max-width: 700px) {
+    .headerDiv ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+    .headerDiv a {
+    font-size: 20px;
+    color: rgb(47, 77, 77);
+    }
+
+    .titleDiv h1{
+        font-size: 30px
     }
 }
