@@ -43,8 +43,8 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
-    color: #542024;
+    font-size: 18px !important;
+    color: #542024 !important;
 
 }
 
